@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <vue-big-table :tableList="dataTable" :columns="columns" :tdHeight="60" :tableBodyHeight="600"></vue-big-table>
+    <vue-smooth-big-table :tableList="dataTable" :columns="columns" :tdHeight="60" :tableBodyHeight="600"></vue-smooth-big-table>
   </div>
 </template>
 
 <script>
-import vueBigTable from './components/vue-big-table'
+import vueSmoothBigTable from './components/vue-smooth-big-table'
 
 export default {
   name: 'app',
   components: {
-    vueBigTable
+    vueSmoothBigTable
   },
   data(){
     return {

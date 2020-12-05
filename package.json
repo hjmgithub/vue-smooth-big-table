@@ -1,5 +1,5 @@
 {
-  "name": "vue-big-table",
+  "name": "vue-smooth-big-table",
   "description": "一个基于vue的简单易理解的大数据量表格插件，完美解决大数据量渲染、滚动卡顿问题，且滚动动态加载数据时是无缝连接的",
   "version": "0.1.0",
   "author": "hjm",
@@ -11,7 +11,7 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/hjmgithub/vue-big-table.git"
+    "url": "https://github.com/hjmgithub/vue-smooth-big-table.git"
   },
   "scripts": {
     "serve": "vue-cli-service serve",

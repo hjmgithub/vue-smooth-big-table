@@ -36,7 +36,7 @@
 
 <script>
 export default {
-  name: "vueBigTable",
+  name: "vueSmoothBigTable",
   props: {
     tableList: {
       //所有表格数据
