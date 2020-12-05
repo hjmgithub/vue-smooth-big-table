@@ -7,20 +7,20 @@ vue-smooth-big-table是一个基于vue的简单易理解的大数据量表格插
 ## 🔰 安装和引入方式
   ** npm方式安装 **
 ``` javascript
-  // npm i vue-big-table -S
+  // npm i vue-smooth-big-table -S
 
   // npm引入方式 如下
   // main.js
-  import vueBigTable from 'vue-big-table'
+  import vueSmoothBigTable from 'vue-smooth-big-table'
 
-  Vue.use(vueBigTable);
+  Vue.use(vueSmoothBigTable);
 
   new Vue({
     el: '#app',
     render: h => h(App)
   });
   //demo.vue
-  <vue-big-table :tableList="dataTable" :columns="columns" :tdHeight="60" :tableBodyHeight="600"></vue-big-table>
+  <vue-smooth-big-table :tableList="dataTable" :columns="columns" :tdHeight="60" :tableBodyHeight="600"></vue-smooth-big-table>
 ```
 
 ## 📝 API
