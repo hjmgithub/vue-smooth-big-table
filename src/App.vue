@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <vue-big-table :columns='columns' :tableList='dataTable' :tdHeight="30" :tableBodyHeight="600"></vue-big-table>
+    <vue-big-table :tableList="dataTable" :columns="columns" :tdHeight="60" :tableBodyHeight="600"></vue-big-table>
   </div>
 </template>
 
