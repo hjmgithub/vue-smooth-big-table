@@ -7,7 +7,7 @@ vue-big-table是一个基于vue的简单易理解的大数据量表格插件，�
 ## 🔰 安装和引入方式
   ** npm方式安装 **
 ``` javascript
-   // npm i vue-big-table -S
+  // npm i vue-big-table -S
 
   // npm引入方式 如下
   // main.js
